@@ -37,4 +37,4 @@ jobs:
           --seeds=6600-6605 \
           --truncation-psi=0.5 \
           --result-dir=/outputs/generatedFaces
-      image: tensorflow/tensorflow:1.14.0-gpu-py3
+      image: tensorflow/tensorflow:1.15.5-gpu-py3
