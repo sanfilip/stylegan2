@@ -12,7 +12,7 @@ jobs:
         type: volume
     uses: git-checkout@v1
     with:
-      url: https://github.com/gradient-ai/stylegan2.git
+      url: https://github.com/sanfilip/stylegan2.git
   StyleGan2:
     resources:
       instance-type: P4000
